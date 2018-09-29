@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "fibonacci.h"
+#include "..\Algorithms\fibonacci.h"
 
 TEST(FibonacciLenearComplexityTest, Zero) {
     EXPECT_EQ(Fibonacci::run_linear(0), 0);

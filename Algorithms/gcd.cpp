@@ -1,16 +1,6 @@
 #include "stdafx.h"
 #include "gcd.h"
 
-
-Gcd::Gcd()
-{
-}
-
-
-Gcd::~Gcd()
-{
-}
-
 // Euclid's algorithm
 int Gcd::run(int x, int y)
 {
