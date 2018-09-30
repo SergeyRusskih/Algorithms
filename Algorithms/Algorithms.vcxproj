@@ -151,10 +151,12 @@
     <ClInclude Include="gcd.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="three_n_plus_one.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="fibonacci.cpp" />
     <ClCompile Include="gcd.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

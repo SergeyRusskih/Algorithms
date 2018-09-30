@@ -1,4 +1,5 @@
 #include "pch.h"
+#include "..\Algorithms\three_n_plus_one.h"
 
 TEST(ThreeNPlusOne, Set1) {
     EXPECT_EQ(Three_n_plus_one::run(1, 10), 20);

@@ -1,20 +1,7 @@
-#include <stdio.h>
+#include "stdafx.h"
+#include "three_n_plus_one.h"
 
-int run(int start, int end);
-int get_length(int i);
-
-int main() 
-{
-    int i, j, result;
-    while (scanf("%d %d", &i, &j) != EOF) {
-        result = run(i, j);
-        printf("%d %d %d\n", i, j, result);
-    }
-
-    return 0;
-}
-
-int run(int start, int end) {
+int Three_n_plus_one::run(int start, int end) {
 
     if (start > end) {
         start += end;
@@ -32,7 +19,7 @@ int run(int start, int end) {
     return max;
 }
 
-int get_length(int i) {
+int Three_n_plus_one::get_length(int i) {
 
     int count = 1;
     while (i > 1) {
