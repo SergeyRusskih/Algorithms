@@ -1,11 +1,20 @@
 #include "stdafx.h"
+#include "targetver.h"
+
+//
+#include <stdio.h>
+#include <string>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
 
 int main()
 {
-    //int i, j, result;
-    //while (scanf_s("%d %d", &i, &j) != EOF) {
-    //    printf("%d %d %d\n", i, j, result);
-    //}
+    string result;
+    while (scanf_s("%d", &result) != EOF) {
+        printf("%d\n", result);
+    }
 
     return 0;
 }

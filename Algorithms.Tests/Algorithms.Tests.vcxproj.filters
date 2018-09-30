@@ -11,6 +11,9 @@
     <ClCompile Include="three_n_plus_one.cpp">
       <Filter>Misc</Filter>
     </ClCompile>
+    <ClCompile Include="tex.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
