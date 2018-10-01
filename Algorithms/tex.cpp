@@ -19,3 +19,42 @@ string Tex::run(string text) {
 
     return text;
 }
+
+
+#include <string>
+#include <iostream>
+#include <algorithm>
+#include <cstdio>
+#include <cstring>
+
+using namespace std;
+
+
+int main()
+{
+    bool first = true;
+
+    char text[1024];
+
+    while (fgets(text, 1024, stdin)) {
+        int len = strlen(text);
+
+        for (int i = 0; i < len; i++) {
+            if (text[i] == '"') {
+                if (first) {
+                    printf("``");
+                }
+                else {
+                    printf("''");
+                }
+
+                first = !first;
+            }
+            else {
+                printf("%c", text[i]);
+            }
+        }
+    }
+
+    return 0;
+}

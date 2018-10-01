@@ -59,9 +59,6 @@
     <ClCompile Include="three_n_plus_one.cpp">
       <Filter>Source Files\Misc</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="tex.cpp">
       <Filter>Source Files\Misc</Filter>
     </ClCompile>
